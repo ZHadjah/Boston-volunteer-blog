@@ -76,4 +76,17 @@
 			<p>Send Josh a message at <a href="mailto:josh@bostonvolunteer.org">josh@bostonvolunteer.org</a> or <a href="https://www.linkedin.com/in/joshuakonoff8/">connect with Josh on LinkedIn.</a></p>
 		</div>
 	</section>
+
+	
+	<section class="bv-quotes bv-profiles">
+		<h3>Futher reading</h3>
+		<ul>
+			<li>"Things To Do in Boston"</li>
+			<li>"Things To Do in Massachusetts"</li>
+			<li>"Boston's Educational Inequities"</li>
+			<li>"Volunteer Opportunities in Boston"</li>
+			<li>"Why Urban Environmentalism is So Important"</li>
+			<li>"The Benefits of Volunteering"</li>
+		</ul>
+	</section>
 @endsection
