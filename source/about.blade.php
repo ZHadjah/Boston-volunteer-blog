@@ -49,7 +49,6 @@
 
 			<p>Josh met his wife, Autumn, while both studied at Boston University. His favorite hobbies are entrepreneurship, adventures in nature, and reading a good book in its original language.  His favorite books are <em>War and Peace</em> and <em>Atomic Habits</em>.</p>
 			<p>Josh also has a background in both machine learning and real estate. Josh still works in real estate, with more than 8 years of experience, where he almost exclusively helps long time relationships and their referrals.</p>
-			<p>Josh believes that one of the key ingredients to happiness is surprise. Surprise your spouse or sibling today!</p>
 			<p>Let’s meet for coffee: <a href="mailto:josh@bostonvolunteer.org">josh@bostonvolunteer.org</a> or <a href="https://www.linkedin.com/in/joshuakonoff8/">connect with Josh on LinkedIn.</a></p>
 		</section>
 		<section class="bv-content-text">
