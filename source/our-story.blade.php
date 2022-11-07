@@ -81,12 +81,12 @@
 	<section class="bv-quotes bv-profiles">
 		<h3>Futher reading</h3>
 		<ul>
-			<li>"Things To Do in Boston"</li>
-			<li>"Things To Do in Massachusetts"</li>
-			<li>"Boston's Educational Inequities"</li>
-			<li>"Volunteer Opportunities in Boston"</li>
-			<li>"Why Urban Environmentalism is So Important"</li>
-			<li>"The Benefits of Volunteering"</li>
+			<li><a href="/things-to-do-in-boston">"Things To Do in Boston"</a></li>
+			<li><a href="/things-to-do-in-massachusetts">"Things To Do in Massachusetts"</a></li>
+			<li><a href="/bostons-educational-inequities">"Boston's Educational Inequities"</a></li>
+			<li><a href="/volunteer-opportunities-in-boston">"Volunteer Opportunities in Boston"</a></li>
+			<li><a href="/why-urban-environmentalism-is-so-important">"Why Urban Environmentalism is So Important"</a></li>
+			<li><a href="/the-benefits-of-volunteering">"The Benefits of Volunteering"</a></li>
 		</ul>
 	</section>
 @endsection
