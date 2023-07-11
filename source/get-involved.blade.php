@@ -24,7 +24,7 @@
 		<aside class="bv-commit">
 			<h3>Volunteer</h3>
 			<p>Get involved with your community without significant hassle or time commitments, or test the waters to see what volunteering is like. Pick any opportunity you're interested in that's convenient for you, and we'll handle the rest.</p>
-			<a href="https://www.meetup.com/BostonVolunteer/events/" class="bv-button">Find an event</a>
+			<a href="https://www.instagram.com/bostonvolunteers/" class="bv-button">Find an event</a>
 		</aside>
 		<aside class="bv-commit">
 			<h3>Organize an Event</h3>

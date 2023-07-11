@@ -524,7 +524,31 @@ p {
 .bv-center {
   text-align: center;
 }
+.bv-center .bv-button-row a {
+  width: 25%;
+  display: inline-block;
+  margin: 0 1em;
+}
 
+.bv-quotes a {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 1091px) {
+  .bv-nav-list.bv-nav-open {
+    width: 100%;
+  }
+
+  li.bv-nav-item {
+    text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 220px;
+  }
+}
 .bv-nav {
   align-items: center;
   display: flex;
@@ -549,7 +573,7 @@ p {
 }
 @media screen and (max-width: 1091px) {
   .bv-nav-list {
-    width: 100%;
+    /*width: 100%;*/
   }
 }
 .bv-nav-list.has-js {
@@ -558,6 +582,8 @@ p {
 @media screen and (min-width: 1092px) {
   .bv-nav-list.has-js {
     display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
   }
 }
 .bv-nav-list.bv-nav-open {
@@ -576,6 +602,14 @@ p {
 @media screen and (min-width: 1242px) {
   .bv-nav-list {
     font-size: 1em;
+  }
+}
+.bv-nav-list li.bv-nav-break {
+  width: 100%;
+}
+@media screen and (min-width: 1320px) {
+  .bv-nav-list li.bv-nav-break {
+    display: none;
   }
 }
 
@@ -806,6 +840,120 @@ section {
   order: -1;
 }
 
+.bv-our-sponsors p {
+  max-width: 75ch;
+  text-align: center;
+}
+.bv-our-sponsors aside {
+  margin-bottom: 50px;
+}
+.bv-our-sponsors img {
+  max-width: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 812px) {
+  .bv-our-sponsors img {
+    max-width: 800px;
+  }
+}
+
+.bv-amazon,
+.bv-bu-student-gov {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .bv-amazon,
+.bv-bu-student-gov {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+.bv-amazon .bv-sponsor-logo,
+.bv-bu-student-gov .bv-sponsor-logo {
+  max-width: 250px;
+}
+@media screen and (min-width: 812px) {
+  .bv-amazon .bv-sponsor-logo,
+.bv-bu-student-gov .bv-sponsor-logo {
+    max-width: 250px;
+    align-self: center;
+  }
+}
+
+.bv-amazon-desc {
+  align-self: center;
+}
+.bv-amazon-desc p {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .bv-bu-student-gov {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bv-backpack-kids,
+.bv-charles-river-cleanup {
+    align-self: center;
+  }
+}
+
+footer {
+  align-items: flex-start;
+}
+
+#mc_embed_signup form {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup .foot {
+  display: block;
+  width: 100%;
+}
+
+#mc_embed_signup .button {
+  width: 100%;
+  background-color: #e14627;
+}
+
+#mc_embed_signup .brandingLogo,
+#mc_embed_signup .indicates-required {
+  display: none;
+}
+
+#mc_embed_signup .helper_text {
+  background-color: transparent;
+}
+
+#mc_embed_signup .mc-field-group {
+  width: 100%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  background-color: transparent;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #2b3990;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 1.5em;
+}
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 * {
   box-sizing: border-box;
 }
@@ -888,7 +1036,9 @@ footer p {
 @media screen and (min-width: 650px) {
   .footer-logo {
     display: flex;
-    max-width: 565px;
+    /*max-width: 565px;*/
+    flex-wrap: wrap;
+    width: calc(100% - 330px);
   }
 }
 @media screen and (min-width: 1085px) {
@@ -912,6 +1062,42 @@ footer p {
   color: inherit;
 }
 
+.footer-social {
+  width: 100%;
+  /*
+  .fa-facebook {
+  	border-color: #3B5998;
+  	color: #3B5998;
+  }
+  .fa-instagram {
+  	border-color: #125688;
+  	color: #125688;
+  }*/
+}
+@media screen and (min-width: 1085px) {
+  .footer-social {
+    position: relative;
+    text-align: left;
+    top: -1em;
+    padding-left: 210px;
+  }
+}
+.footer-social .fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  padding: 0.5em;
+  box-sizing: content-box;
+}
+.footer-social .fa:hover {
+  opacity: 0.7;
+}
+
 .footer-credit {
   color: #a7aabb;
   font-size: 0.75em;
@@ -930,4 +1116,17 @@ footer p {
 }
 .footer-credit a {
   color: inherit;
+}
+
+.footer-tax-details {
+  color: #a7aabb;
+  display: block !important;
+  font-size: 0.5em;
+  font-style: italic;
+  height: auto;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background: #0a0d22;
 }
