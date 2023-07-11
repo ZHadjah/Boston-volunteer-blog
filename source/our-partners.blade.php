@@ -1,6 +1,6 @@
 @extends('_layouts.main')
 
-@section('title', 'Our Sponsors')
+@section('title', 'Our Partners')
 
 @section('hero-media')
 	<video autoplay loop muted playsinline>
@@ -12,8 +12,8 @@
 @endsection
 
 @section('hero-content')
-	<h1>Our Sponsors</h1>
-	<p>Proud to work with great organizations. We couldn't do it without you!</p>
+	<h1>Our Partners</h1>
+	<p>Proud to partner with great organizations. We couldn't do it without you!</p>
 @endsection
 
 @section('content')
@@ -31,7 +31,7 @@
 			<img class="bv-charles-river-cleanup" src="/assets/images/charles-river-cleanup.jpg" alt="Charles River Earth Day Cleanup">
 		</aside>
 		<aside class="bv-sponsor-info">
-			<p>We've also partnered with dozens of local companies and nonprofits.</p>
+			<p>We've also partner with dozens of local companies and nonprofits.</p>
 			<p>Want to learn how you can make a local impact too? Become a sponsor and help us build a better Boston.</p>
 			<a href="mailto:josh@bostonvolunteer.org" class="bv-button">Learn more</a>
 		</aside>
