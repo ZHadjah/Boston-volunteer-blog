@@ -1,0 +1,59 @@
+// Our Sponsors styles
+
+.bv-our-sponsors {
+    p {
+        max-width: 75ch;
+        text-align: center;
+    }
+    aside {
+        margin-bottom: 50px;
+    }
+    img {
+        max-width: 400px;
+        width: 100%;
+
+        @media screen and (min-width: 812px) {
+            max-width: 800px;
+        }
+    }
+}
+
+
+.bv-amazon,
+.bv-bu-student-gov {
+    display: block;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .bv-sponsor-logo{
+       max-width: 250px;
+        @media screen and (min-width: 812px) {
+            max-width: 250px;
+            align-self: center;
+        }
+    }
+}
+.bv-amazon-desc {
+    align-self: center;
+
+    p {
+        text-align: left;
+    }
+}
+
+.bv-bu-student-gov {
+    @media screen and (min-width: 768px) {
+        justify-content: space-between;
+    }
+}
+
+.bv-backpack-kids,
+.bv-charles-river-cleanup {
+    @media screen and (min-width: 768px) {
+        align-self: center;
+    }
+}

@@ -75,7 +75,7 @@
 			<aside class="bv-callout">
 				<h3>Donate your time</h3>
 				<p>Our mission is to help you give back on your schedule. Whether it's an evening in a Boston soup kitchen or rebuilding your neighborhood playground so kids can play safely, you'll find something that works for you here.</p>
-				<a href="https://www.meetup.com/BostonVolunteer/events/" class="bv-button">Find an Event</a>
+				<a href="https://www.instagram.com/bostonvolunteers/" class="bv-button">Find an Event</a>
 			</aside>
 			<aside class="bv-callout">
 				<h3>Get inspired</h3>
